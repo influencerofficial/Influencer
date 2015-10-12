@@ -1,0 +1,184 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+/** FONT DEL BODY (tutto il testo del sito) */
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+/** BARRA DI NAVIGAZIONE */
+  
+    /** BARRA CHE SI ATTIVA QUANDO LO SCHERMO SI RIDUCE */
+  .button-collapse {
+  color: black;
+  }
+
+  /** COLORE DEI TESTI NELLA BARRA DI NAVIGAZIONE */
+  nav ul a,
+  nav .brand-logo {
+    color: #1F1F1F;
+  }
+
+  /** FONT DEL LOGO */
+  nav .brand-logo{
+    font-family: 'Satisfy', cursive;
+  }
+
+  /** DISTANZA DELLE SCRITTE NELLA BARRA DI NAVIGAZIONE DAI LATI */
+  nav .nav-wrapper {
+      padding: 0 50px;
+  }
+
+
+
+
+/** INTRO */
+  
+  /** DISTANZA DELLA SCRITTA PRINCIPALE(TITOLO) */
+    .header {margin-top: 30%;
+    }
+
+  /** DISTANZA DELLA SCRITTA SOTTOTITOLO */
+    .header-subtitle {margin-top: 0%; font-size: 1em;
+    }
+  
+  /** DIMENSIONE DELLA SEZIONE INTRO (immagine di sfondo) */
+  .parallax-container {
+    min-height: 380px;
+    line-height: 1;
+    height: auto;
+    color: rgba(255,255,255,.9);
+  }
+
+  /** POSIZIONAMENTO CENTRALE DELLE SCRITTE e IMMAGINE COMPLETA SU DISPOSITIVO MOBILE */
+      .section-intro{
+        height: 100%;
+        width: 100%;
+      }
+
+
+      
+
+/** SERVIZIO */
+
+  /** MARGINE IN ALTO ed IN BASSO PER EVITARE SOVRAPPOSIZIONE */
+    .col-servizio, .col-problema {
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+  
+  /** TESTO DEL SOTTOTITOLO */
+  p {font-size: 14pt;
+    line-height: 2rem;
+  }
+
+  /** POSIZIONAMENTO CENTRALE DELLE SCRITTE e IMMAGINE COMPLETA SU DISPOSITIVO MOBILE */
+        .section-servizio{
+          height: 100%;
+          width: 100%;
+        }
+
+.flex{
+  background-size: 100%;
+  background-origin: 0;
+}
+/** REGISTRAZIONE */
+
+  /** LARGHEZZA BOTTONE COME SPAZIO EMAIL */
+  .btn-registrazione {
+    width: 100%;
+  }
+
+  .registrazione-subtitle {
+    font-size: 1.3em;
+    margin-top: 100px;
+  }
+
+  /** POSIZIONAMENTO CENTRALE DELLE SCRITTE e IMMAGINE COMPLETA SU DISPOSITIVO MOBILE */
+      .section-registrazione{
+        height: 100%;
+        width: 100%;
+      }
+
+
+
+
+/** IMMAGINE FINALE */
+
+  /** GRANDEZZA IMMAGINE e IMMAGINE COMPLETA SU DISPOSITIVO MOBILE */
+      .section-final{
+        height: 100%;
+        width: 100%;
+        margin-top: 0%;
+      }
+
+
+
+
+
+/** REGOLA SE SIAMO SU UNO SCHERMO DI DIMENSIONE MASSIMA DI 992PX */
+  @media only screen and (max-width : 992px) {
+    .parallax-container .section {
+      position: absolute;
+      top: 40%;
+    }
+    #index-banner .section {
+      top: 10%;
+    }
+  }
+
+
+
+
+/** REGOLA SE SIAMO SU UNO SCHERMO DI DIMENSIONE MASSIMA DI 600PX */
+  @media only screen and (max-width : 600px) {
+    #index-banner .section {
+      top: 0;
+    }
+
+    /** DISTANZA DELLE SCRITTE NELLA BARRA DI NAVIGAZIONE DAI LATI PER IL MOBILE */
+    nav .nav-wrapper {
+        padding: 0 10px;
+    }
+  }
+
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+
+.section-appstore{
+  height: 100%;
+  width: 100%;
+  background-color: ;
+}
+
+/** FOOTER */
+
+  footer.page-footer {
+    margin: 0;
+    background-color: #686868;
+  }
+
+  .social-icon{
+    font-size: 1.5em;
+    color: #fff;
+    padding: 0 20px;
+  }
+
+  .social-icon:hover{
+    color: #FF9F51;
+  }
