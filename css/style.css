@@ -87,6 +87,8 @@ body {
         }
 
 .flex{
+  width: 125%;
+  margin-top: 0px;
   background-size: 100%;
   background-origin: 0;
 }
